@@ -88,6 +88,6 @@ footer {
 }
 
 @media screen and (max-width:768px){
-  main{display:inline-block;
+  main { display:inline-block;
   justify-content:center;
 }
