@@ -24,7 +24,6 @@ li:nth-child(odd){
 
 
 .main-content{
-  width:960px;
   display:flex;
   flex-wrap:wrap;
 }
@@ -41,11 +40,33 @@ li:nth-child(odd){
   background-color:orange;
 }
 
+.box:nth-child(3){
+  margin-right:0;
+}
+
 .box:nth-child(5){
   background-color:orange;
 }
 
-.box:nth-child(9){
- background-color:orange
+.box:nth-child(6){
+  margin-right:0;
 }
+
+
+.box:nth-child(7){
+  margin-bottom:0;
+}
+
+.box:nth-child(8){
+  margin-bottom:0;
+}
+
+.box:nth-child(9){
+ background-color:orange;
+ margin-right:0;
+ margin-bottom:0;
+}
+
+
+
 
